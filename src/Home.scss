@@ -1,0 +1,38 @@
+@import "const";
+
+.name-and-portrait {
+    display: flex;
+    flex-wrap: wrap;
+
+    .text {
+
+        .name-big {
+            font-size: 5rem;
+            margin-top: -40px;
+    
+        
+            p {
+                margin-bottom: -7.5rem;
+            }
+        }
+        
+        .blurb {
+            font-size: 1.5rem;
+            margin-top: 7.5rem;
+            margin-left: 3px;
+
+            width: 50rem;
+        }
+        
+    }
+
+    .portrait-image {
+        max-width: 30vw;
+        height: auto;
+        
+        margin-right: 0vw;
+        margin-left: auto;
+
+        border-radius: $corner-radius;
+    }
+}

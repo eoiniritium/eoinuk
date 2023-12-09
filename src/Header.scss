@@ -1,0 +1,41 @@
+@import "const";
+
+.Header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: $white;
+    padding: 5px 0px 5px 0px;
+    
+    box-shadow: 20px 20px 75px $bgdark2, 
+            -30px -30px 60px $bgdefault;
+
+    
+
+    .Header-inner {
+        margin-left: 250px;
+        margin-right: 250px ;
+        display: flex;
+
+        a {color: $black;}
+    }
+
+    .name-btn {
+        font-size: 32px;
+        
+        padding: 2px 10px 2px 10px;
+    }
+
+    ul {
+        display: inline;
+        
+        li {
+            display: inline;
+            margin-left: 100px;
+
+            a:hover {
+                color: $highlighted;
+            }
+        }
+    }
+}

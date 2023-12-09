@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&display=swap');
+@import "const";
+
+
+* {
+    font-family: 'DM Sans', sans-serif;    
+}
+
+body {
+    background-color: $bgdefault;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
