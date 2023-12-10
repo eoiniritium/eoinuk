@@ -1,12 +1,11 @@
 import './Header.scss'
 
-import { Instagram } from './Icons';
+import { Instagram, Linkedin, Email } from './Icons';
 
 function Header() {
     return (
         <header className='Header'>
-            <div className='Header-inner'>
-                <a href='./' className='name-btn'>
+            <a href='./' className='name-btn'>
                     Eoin
                 </a>
 
@@ -23,8 +22,13 @@ function Header() {
                             <Instagram/>
                         </a>
                     </li>
+
+                    <li>
+                        <a href='https://www.linkedin.com/in/eoin-mag-ualghairg-12485722b/'>
+                            <Linkedin/>
+                        </a>
+                    </li>
                 </ul>
-            </div>
         </header>
     );
 }

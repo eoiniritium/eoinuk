@@ -3,44 +3,56 @@
 .Header {
     position: sticky;
     top: 0;
-    width: 100%;
+    width: fill;
     background-color: $white;
-    padding: 5px 0px 5px 0px;
     
-    box-shadow: 20px 20px 75px $bgdark2, 
-            -30px -30px 60px $bgdefault;
+    a {
+        color: $black;
+    }
 
-    
+    padding-top:    5px;
+    padding-bottom: 5px;
+    padding-left:   10%;
+    padding-right:  10%;
 
-    .Header-inner {
-        margin-left: 250px;
-        margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 20px 20px 75px $bgdark2, -30px -30px 60px $bgdefault;
+
+
+
+    ul {
         display: flex;
-
-        a {color: $black;}
-
-        .name-btn {
-            font-size: 32px;
-            
-            padding: 5px 10px 2px 10px;
-        }
-    
-        ul {
-            display: inline;
-            
-            li {
-                display: inline;
-                margin-left: 100px;
-    
-                a:hover {
-                    color: $highlighted;
-                }
+        list-style-type: none;
+        li {
+            a:hover {
+                color: $highlighted;
             }
         }
+    }
 
-        .social-buttons {
-            margin-right: 0;
-            margin-left: auto;
+    .name-btn {
+        font-size: 32px;
+    }
+
+    .nav-buttons {
+        justify-content: space-evenly;
+        width: fill;
+    }
+
+    .social-buttons {
+        li {
+            justify-content: flex-end;
+            padding-left: 15px;
+            svg {
+                transform: scale(1.5);
+
+                &:hover {
+                    fill: $highlighted;
+                }
+            }
         }
     }
 }

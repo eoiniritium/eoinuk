@@ -1,36 +1,29 @@
 @import "const";
 
-.name-and-portrait {
+.first-item {
     display: flex;
     flex-wrap: wrap;
 
-    .text {
-
-        .name-big {
-            font-size: 5rem;
-            margin-top: -40px;
+    .name-big {
+        font-size: 5rem;
+        
+        p {
+            margin-bottom: -2.5rem;
+        }
+    }
     
-        
-            p {
-                margin-bottom: -7.5rem;
-            }
-        }
-        
-        .blurb {
-            font-size: 1.75rem;
-            margin-top: 10rem;
-            margin-left: 3px;
-
-            width: 50rem;
-        }
-        
+    .blurb {
+        font-size: 1.75rem;
+        margin-top: 3rem;
+        margin-left: 3px;
+        max-width: 30%;
     }
 
     .portrait-image {
         max-width: 30vw;
         height: auto;
         
-        margin-right: 0vw;
+        margin-right: 0;
         margin-left: auto;
 
         border-radius: $corner-radius;
