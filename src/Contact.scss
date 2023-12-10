@@ -1,13 +1,61 @@
 @import "const";
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 2rem;
-    width: 50%;
-    border-radius: $corner-radius;
-    padding: 10px;
 
-    background-color: $white;
+    
+    
+    form {
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 10px;
+        width: 50%;
+        border-radius: $corner-radius;
+        padding: 10px;
+
+        background-color: $white;
+        
+    }
+
+    p {
+        font-size: 1.5rem;
+
+        margin: auto;
+        margin-top: 30px;
+        width: 50%;
+        
+        border-radius: $corner-radius;
+        padding: 10px;
+
+        background-color: $white;
+
+        text-align: center;
+    }
+
+    input[type=text], input[type=email] {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 1.25rem;
+        margin-left: 5px;
+    }
+
+    input[type=submit] {
+        border-radius: 5px;
+
+        &:hover {
+            box-shadow: 0px 0px 15px $gogreen;
+            background-color: $gogreen;
+            color: $white;
+        }
+        
+        font-size: 1.5em;
+
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

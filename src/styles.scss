@@ -3,7 +3,8 @@
 
 
 * {
-    font-family: 'DM Sans', sans-serif;    
+    font-family: 'DM Sans', sans-serif;
+    color: $black;
 }
 
 body {
@@ -30,16 +31,13 @@ input[type=text], input[type=email] {
     padding: 3px 5px 3px 5px;
     border: none;
     border-radius: 5px;
-    margin: 3em;
-
-    font-size: 16px;
-
-    box-shadow: 0px 32px 36px 4px rgba(0,0,0,0.1);
 
     &:focus {
-        outline: none;
+        outline-color: $highlighted;
         background-color: $white;
-
-        
     }
+}
+
+input[type=submit] {
+    border: none;
 }

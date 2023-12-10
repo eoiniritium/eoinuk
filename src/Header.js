@@ -1,5 +1,7 @@
 import './Header.scss'
 
+import { Instagram } from './Icons';
+
 function Header() {
     return (
         <header className='Header'>
@@ -14,7 +16,15 @@ function Header() {
                     <li><a href='./projects'>Projects</a></li>
                     <li><a href='./contact'>Contact</a></li>
                 </ul>
-                </div>
+
+                <ul className='social-buttons'>
+                    <li>
+                        <a href='https://www.instagram.com/eoiniritium/'>
+                            <Instagram/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </header>
     );
 }

@@ -14,7 +14,7 @@
 
     .Header-inner {
         margin-left: 250px;
-        margin-right: 250px ;
+        margin-right: 250px;
         display: flex;
 
         a {color: $black;}
@@ -36,6 +36,11 @@
                     color: $highlighted;
                 }
             }
+        }
+
+        .social-buttons {
+            margin-right: 0;
+            margin-left: auto;
         }
     }
 }
