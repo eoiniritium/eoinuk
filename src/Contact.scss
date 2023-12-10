@@ -1,0 +1,13 @@
+@import "const";
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+    border-radius: $corner-radius;
+    padding: 10px;
+
+    background-color: $white;
+}

@@ -5,7 +5,7 @@ function Header() {
         <header className='Header'>
             <div className='Header-inner'>
                 <a href='./' className='name-btn'>
-                    Eoin Mag Ualghairg.
+                    Eoin
                 </a>
 
                 <ul className='nav-buttons'>

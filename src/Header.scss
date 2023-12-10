@@ -18,23 +18,23 @@
         display: flex;
 
         a {color: $black;}
-    }
 
-    .name-btn {
-        font-size: 32px;
-        
-        padding: 2px 10px 2px 10px;
-    }
-
-    ul {
-        display: inline;
-        
-        li {
+        .name-btn {
+            font-size: 32px;
+            
+            padding: 5px 10px 2px 10px;
+        }
+    
+        ul {
             display: inline;
-            margin-left: 100px;
-
-            a:hover {
-                color: $highlighted;
+            
+            li {
+                display: inline;
+                margin-left: 100px;
+    
+                a:hover {
+                    color: $highlighted;
+                }
             }
         }
     }

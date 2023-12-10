@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import About from './About';
+import Contact from './Contact'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Routes>
         <Route path='/' exact element={<Home/>}/>
         <Route path='/about' exact element={<About/>}/>
+        <Route path='/contact' exact element={<Contact/>}/>
       </Routes>
     </Router>
     </div>
