@@ -32,6 +32,12 @@ a:hover {
     margin-top: 50px;
 }
 
+@media (max-width: 1000px) {
+    .content {
+        width: 90%;
+    }
+}
+
 input[type=text], input[type=email] {
     background-color: $light;
     padding: 3px 5px 3px 5px;

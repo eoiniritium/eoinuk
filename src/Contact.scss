@@ -1,16 +1,13 @@
 @import "const";
 
 .contact-form {
-
-    
-    
     form {
         display: flex;
         flex-direction: column;
 
         margin: auto;
         margin-top: 10px;
-        width: 50%;
+        width: 80%;
         border-radius: $corner-radius;
         padding: 10px;
 
@@ -23,7 +20,7 @@
 
         margin: auto;
         margin-top: 30px;
-        width: 50%;
+        width: 80%;
         
         border-radius: $corner-radius;
         padding: 10px;
