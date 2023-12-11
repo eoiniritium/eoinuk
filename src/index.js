@@ -6,10 +6,14 @@ import './styles.scss'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+
 import Header from './Header';
+import Footer from './Footer'
+
 import Home from './Home';
 import About from './About';
 import Contact from './Contact'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +28,7 @@ root.render(
       </Routes>
     </Router>
     </div>
+    <Footer/>
   </React.StrictMode>
 );
 

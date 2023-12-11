@@ -19,7 +19,24 @@ function Home() {
                 </div>
 
                 <img src={require('./src/portrait.jpeg')} className="portrait-image"/>
+            </div>
 
+            <div className='links'>
+                <a href='/about'>
+                    <div>
+                    Read About Me
+                    </div>
+                </a>
+                <a href='/projects'>
+                    <div>
+                    See my projects
+                    </div>
+                </a>
+                <a href='/contact'>
+                    <div>
+                    Get in touch
+                    </div>
+                </a>
             </div>
         </div>
     );

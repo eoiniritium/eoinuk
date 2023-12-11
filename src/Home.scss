@@ -32,6 +32,8 @@
             @media (max-width: 1500px) {
                 width: 100%;
             }
+
+            margin-bottom: 30px;
         }
     }
     
@@ -39,6 +41,42 @@
         border-radius: $corner-radius;
 
         width: max(20vw, 450px);
-        height:fit-content;
+        height:auto;
+
+        align-items: center;
+
+        box-shadow:  16px 16px 60px $bgdark2,
+             -16px -16px 40px $white;
+    }
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 50px;
+
+    width: fill;
+
+    div {
+        background-color: $white;
+        border-radius: $corner-radius;
+        font-size: 3rem;
+        padding: 3rem 10rem 3rem 10rem;
+
+        border-radius: 50px;
+
+        margin-top: 20px;
+
+        box-shadow:  16px 16px 60px $bgdark2,
+             -16px -16px 40px $white;
+        transition: box-shadow 125ms;
+
+        &:hover {
+            box-shadow: none;
+            transition: box-shadow 125ms;
+        }
     }
 }
