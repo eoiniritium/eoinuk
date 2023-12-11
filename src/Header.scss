@@ -16,6 +16,7 @@
     padding-right:  10%;
 
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
@@ -35,6 +36,15 @@
 
     .name-btn {
         font-size: 32px;
+    }
+
+    .language-toggle {
+        margin-left: 10px;
+
+        img {
+            width: 45px;
+            height: auto;
+        }
     }
 
     .nav-buttons {
