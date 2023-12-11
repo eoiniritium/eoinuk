@@ -27,17 +27,17 @@ const Home = (param) => {
                     </div>
         
                     <div className='links'>
-                        <a href='/about'>
+                        <a href='/en/about'>
                             <div>
                                 Read About Me
                             </div>
                         </a>
-                        <a href='/projects'>
+                        <a href='/en/projects'>
                             <div>
                                 See my projects
                             </div>
                         </a>
-                        <a href='/contact'>
+                        <a href='/en/contact'>
                             <div>
                                 Get in touch
                             </div>
@@ -69,19 +69,19 @@ const Home = (param) => {
                     </div>
         
                     <div className='links'>
-                        <a href='/about'>
+                        <a href='/cy/about'>
                             <div>
                                 Darllen amdanaf i
                             </div>
                         </a>
-                        <a href='/projects'>
+                        <a href='/cy/projects'>
                             <div>
                                 Gweld fy mhrosiectau
                             </div>
                         </a>
-                        <a href='/contact'>
+                        <a href='/cy/contact'>
                             <div>
-                                Dod mewn cysylltiad â fi
+                                Cysylltu â fi
                             </div>
                         </a>
                     </div>

@@ -4,7 +4,7 @@ import './index.css';
 import './styles.scss'
 
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 import Redirect from './Redirect';
 

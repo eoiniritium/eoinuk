@@ -22,7 +22,7 @@ function Header() {
 
     switch (language) {
         case 'en': 
-            path = '../cy/' + residual;
+            path = '/../cy/' + residual;
             return (
             <header className='Header'>
                 <a href='/en' className='name-btn'>
@@ -64,7 +64,7 @@ function Header() {
         break;
 
         case 'cy':
-            path = '../en/' + residual;
+            path = '/../en/' + residual;
             return (
             
             <header className='Header'>
