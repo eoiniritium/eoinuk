@@ -1,0 +1,67 @@
+@import 'const';
+
+h1 {
+    font-size: 30px;
+}
+
+
+.about-parent {
+    display: flex;
+    justify-content: space-around;
+
+    & > * {
+        background-color: $white;
+        padding: 10px 20px 10px 20px;
+        border-radius: $corner-radius;
+        width: 45%;
+        margin: 0px 5px 10px 5px;
+
+        box-shadow:  16px 16px 60px $bgdark2, -16px -16px 40px $white;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .timeline {
+    
+        p {
+            padding: 0;
+            margin: 0;
+        }
+    
+        h1 { 
+            color: $calendarred;
+        }
+    
+        .date {
+            font-size: 28px;
+            margin-right: 10px;
+            width: 70px;
+        }
+    
+        .event {
+            display: flex;
+            margin-bottom: 20px;
+    
+            .text {
+                padding-left: 10px;
+    
+                border-left: solid 2px $calendarred;
+            }
+        }
+    
+    }
+
+    .otherPane {
+
+    }
+}

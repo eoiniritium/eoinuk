@@ -7,7 +7,7 @@ function Footer () {
                 eoin.uk
             </div>
             <div className='right-side'>
-
+                Footer
             </div>
         </footer>
     );

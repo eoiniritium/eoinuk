@@ -17,12 +17,17 @@ function Header() {
     const tokenised = splitRoute(location);
     const language = tokenised[0];
     tokenised.shift(); // remove first item
-    const residual = tokenised.join('/');
+    let residual = '/' + tokenised.join('/');
+    if (residual == '/') {
+        residual = '';
+    }
+
     let path;
 
     switch (language) {
         case 'en': 
-            path = '/../cy/' + residual;
+            path = '/../cy' + residual;
+
             return (
             <header className='Header'>
                 <a href='/en' className='name-btn'>
@@ -64,7 +69,8 @@ function Header() {
         break;
 
         case 'cy':
-            path = '/../en/' + residual;
+            path = '/../en' + residual;
+
             return (
             
             <header className='Header'>
