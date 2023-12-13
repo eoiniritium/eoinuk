@@ -8,13 +8,19 @@ h1 {
 .about-parent {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     & > * {
         background-color: $white;
         padding: 10px 20px 10px 20px;
         border-radius: $corner-radius;
         width: 45%;
-        margin: 0px 5px 10px 5px;
+
+        @media (max-width: $desktop-width-threshold) {
+            width: 100%;
+        }
+
+        margin: 0px 0.5% 10px 0.5%;
 
         box-shadow:  16px 16px 60px $bgdark2, -16px -16px 40px $white;
     }
@@ -45,7 +51,8 @@ h1 {
         .date {
             font-size: 28px;
             margin-right: 10px;
-            width: 70px;
+            min-width: 70px;
+            max-width: 70px;
         }
     
         .event {
@@ -59,9 +66,5 @@ h1 {
             }
         }
     
-    }
-
-    .otherPane {
-
     }
 }

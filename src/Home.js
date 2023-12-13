@@ -17,7 +17,7 @@ const Home = (param) => {
         
                             <div className='blurb'>
                                 <p>
-                                    I'm a 6th form student in my last year at <a href='https://www.glantaf.cymru/'>Ysgol Gyfun Gymraeg Glantaf</a>.
+                                    I'm a 6th form student, based in Cardiff, in my last year at <a href='https://www.glantaf.cymru/'>Ysgol Gyfun Gymraeg Glantaf</a>.
                                     I study Mathematics, Further Mathematics, Physics, and Computer Science.
                                 </p>
                             </div>
@@ -59,7 +59,7 @@ const Home = (param) => {
         
                             <div className='blurb'>
                                 <p>
-                                    Disgybl 6ed dosbarth yn <a href='https://www.glantaf.cymru/'>Ysgol Gyfun Gymraeg Glantaf</a> ydw i.
+                                    Disgybl 6ed dosbarth yn <a href='https://www.glantaf.cymru/'>Ysgol Gyfun Gymraeg Glantaf</a>, Caerdydd, ydw i.
                                     Rwy'n astudio Mathemateg, Mathemateg Pellach, Ffiseg, a Chyfrifiadureg.
                                 </p>
                             </div>
