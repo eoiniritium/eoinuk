@@ -20,22 +20,26 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
+    
     <div className='content'>
       <Router>
-        <Routes>
-          <Route path='/' exact element={<Redirect path='/en'/>}/>
+      
+          <Routes>
+            <Route path='/' exact element={<Redirect path='/en'/>}/>
 
-          <Route path='/en' exact element={<Home language='en'/>}/>
-          <Route path='/en/about' exact element={<About language='en'/>}/>
-          <Route path='/en/contact' exact element={<Contact language='en'/>}/>
+            <Route path='/en' exact element={<Home language='en'/>}/>
+            <Route path='/en/about' exact element={<About language='en'/>}/>
+            <Route path='/en/contact' exact element={<Contact language='en'/>}/>
 
-          <Route path='/cy' exact element={<Home language='cy'/>}/>
-          <Route path='/cy/about' exact element={<About language='cy'/>}/>
-          <Route path='/cy/contact' exact element={<Contact language='cy'/>}/>
-
-        </Routes>
+            <Route path='/cy' exact element={<Home language='cy'/>}/>
+            <Route path='/cy/about' exact element={<About language='cy'/>}/>
+            <Route path='/cy/contact' exact element={<Contact language='cy'/>}/>
+          
+          </Routes>
+      
       </Router>
     </div>
+
     <Footer/>
   </React.StrictMode>
 );

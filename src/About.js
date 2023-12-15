@@ -5,7 +5,7 @@ const dateEN = [
         id: 0,
         date: 'Jan 2006',
         title: 'Hello World',
-        body: 'I am born into this world'
+        body: 'My first day on Earth'
     },
 
     {
@@ -58,7 +58,7 @@ const dateEN = [
         body: 
         <>
             These were my first exam experience. Coming from Covid-19, it was quite scary.
-            I managed to get 7A* and 5A.
+            I obtained 7A* and 5A.
         </>
     },
 
@@ -166,7 +166,7 @@ const dateCY = [
 ];
 
 function populateCalendarEN() {
-    const events = dateEN.map(date => <>
+    const events = dateEN.toReversed().map(date => <>
         <div className='event'>
             <p className='date'>{date.date}</p>
             <div className='text'>
@@ -180,7 +180,7 @@ function populateCalendarEN() {
 }
 
 function populateCalendarCY() {
-    const events = dateCY.map(date => <>
+    const events = dateCY.toReversed().map(date => <>
         <div className='event'>
             <p className='date'>{date.date}</p>
             <div className='text'>
@@ -203,10 +203,10 @@ const About = (param) => {
                 <div className='about-parent'>
                     <div className='timeline'>
                         <h1>Timeline</h1>
-                        {populateCalendarEN()}
+                        { populateCalendarEN() }
                     </div>
 
-                    <div className='trips'>
+                    <div className='about-me-pane'>
                         <h1>Trips</h1>
                     </div>
                 </div>
@@ -218,10 +218,10 @@ const About = (param) => {
                 <div className='about-parent'>
                     <div className='timeline'>
                         <h1>Amserlen</h1>
-                        {populateCalendarCY()}
+                        { populateCalendarCY() }
                     </div>
                     
-                    <div className='trips'>
+                    <div className='about-me-pane'>
                         <h1>Trips</h1>
                     </div>
                 </div>

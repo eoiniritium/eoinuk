@@ -1,10 +1,5 @@
 @import 'const';
 
-h1 {
-    font-size: 30px;
-}
-
-
 .about-parent {
     display: flex;
     justify-content: space-around;
@@ -61,10 +56,12 @@ h1 {
     
             .text {
                 padding-left: 10px;
-    
                 border-left: solid 2px $calendarred;
             }
         }
-    
+    }
+
+    .about-me-pane {
+        
     }
 }
