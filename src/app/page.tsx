@@ -6,9 +6,11 @@ export default function Home() {
       <div className="w-full text-center">
         <h1>Eoin Mag Ualghairg</h1>
         <h2>Mathematics Student</h2>
-        <Link target='_blank' href='https://www.bath.ac.uk/topics/about-the-university/' className="text-blue link">
-          <h3>University of Bath</h3>
-        </Link>
+        <h3>
+          <Link target='_blank' href='https://www.bath.ac.uk/topics/about-the-university/' className="text-blue link">
+            University of Bath
+          </Link>
+        </h3>
       </div>
     </div>
   );
