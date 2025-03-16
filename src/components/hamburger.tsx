@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Hamburger({className, children}: any) {
+export default function Hamburger({className, children}: {className: string, children: React.ReactNode}) {
     const [openHamburger, setOpenHamburger] = useState(false);
 
     const cn = "group inline-flex text-center items-center justify-center " + className;
