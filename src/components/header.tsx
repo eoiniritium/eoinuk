@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
-import Hamburger from "./hamburger";
+import Hamburger from "@/components/hamburger";
 
 export default function Header() {
     return(
@@ -15,10 +15,10 @@ export default function Header() {
                         <FaCaretDown className="ml-2"/>
                     </div>
                 }>
-                    <div className="py-2 pl-3 pr-10 flex flex-col h-40 justify-around absolute bg-blue grain p-5 rounded-b">
-                        <h3><Link href="/" className="link">Home</Link></h3>
-                        <h3><Link href="/projects" className="link">Projects</Link></h3>
-                        <h3><Link href="/tutoring" className="link">Tutoring</Link></h3>
+                    <div className="z-1 py-2 group absolute bg-blue flex flex-col gap-2 grain rounded-b">
+                        <Link href="/"         className="link"><h3 className="pl-3 pr-10">Home</h3></Link>
+                        <Link href="/projects" className="link"><h3 className="pl-3 pr-10">Projects</h3></Link>
+                        <Link href="/tutoring" className="link"><h3 className="pl-3 pr-10">Tutoring</h3></Link>
                     </div>
                 </Hamburger>
             </div>

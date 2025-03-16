@@ -10,6 +10,8 @@ interface HamburgerProps {
 export default function Hamburger({hamburgerButtonJSX, children}: HamburgerProps) {
     const [openHamburger, setOpenHamburger] = useState(false);
 
+
+
     return (
     <>
     <button onClick={() => {setOpenHamburger(!openHamburger); }}>
@@ -18,7 +20,7 @@ export default function Hamburger({hamburgerButtonJSX, children}: HamburgerProps
 
     {
         openHamburger &&
-        <div>{children}</div>
+        <div onClick={() => {setOpenHamburger(false)}}>{children}</div>
     }
     </>
     );
