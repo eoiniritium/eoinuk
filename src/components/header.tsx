@@ -16,9 +16,9 @@ export default function Header() {
                     </div>
                 }>
                     <div className="z-1 py-2 group absolute bg-blue flex flex-col gap-2 grain rounded-b">
-                        <Link href="/"         className="link"><h3 className="pl-3 pr-10">Home</h3></Link>
-                        <Link href="/projects" className="link"><h3 className="pl-3 pr-10">Projects</h3></Link>
-                        <Link href="/tutoring" className="link"><h3 className="pl-3 pr-10">Tutoring</h3></Link>
+                        <Link href="/"         className="link"><h4 className="pl-3 pr-10">Home</h4></Link>
+                        <Link href="/projects" className="link"><h4 className="pl-3 pr-10">Projects</h4></Link>
+                        <Link href="/tutoring" className="link"><h4 className="pl-3 pr-10">Tutoring</h4></Link>
                     </div>
                 </Hamburger>
             </div>
