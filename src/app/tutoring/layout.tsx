@@ -1,7 +1,6 @@
 import ComingSoon from "@/components/comingsoon";
-import ProjectsNavBar from "@/components/projects";
 
-export default function ProjectsLayout({
+export default function TutoringLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

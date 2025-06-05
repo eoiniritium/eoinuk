@@ -12,6 +12,10 @@ export default function Home() {
           </Link>
         </h3>
       </div>
+
+      <div className="mx-70 my-10">
+        <iframe className="w-full aspect-[1.1] rounded-xl" src="Eoin CV.pdf"/>
+      </div>
     </div>
   );
 }
