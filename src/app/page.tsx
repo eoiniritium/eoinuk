@@ -13,7 +13,7 @@ export default function Home() {
         </h3>
       </div>
 
-      <div className="mx-70 my-10">
+      <div className="mx-0 md:mx-10 xl:mx-70 my-10">
         <iframe className="w-full aspect-[1.1] rounded-xl" src="Eoin CV.pdf"/>
       </div>
     </div>
