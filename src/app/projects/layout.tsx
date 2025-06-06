@@ -1,5 +1,4 @@
 import ComingSoon from "@/components/comingsoon";
-import ProjectsNavBar from "@/components/projects";
 
 export default function ProjectsLayout({
   children,
@@ -13,6 +12,9 @@ export default function ProjectsLayout({
         <ProjectsNavBar/>
         {children}
         */}
+        <div className="hidden">
+          {children}
+        </div>
     </div>
   );
 }

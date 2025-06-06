@@ -12,6 +12,9 @@ export default function TutoringLayout({
         <ProjectsNavBar/>
         {children}
         */}
+        <div className="hidden">
+          {children}
+        </div>
     </div>
   );
 }
